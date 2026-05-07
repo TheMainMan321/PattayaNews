@@ -1,0 +1,783 @@
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;700&display=swap');
+      body { background-color: #000000; color: #ffffff; font-family: 'Roboto', sans-serif; margin: 0; padding: 0; }
+      .container { max-width: 1200px; margin: auto; background: #000000; padding-bottom: 60px; }
+      .banner { width: 100%; height: 300px; background-image: url('https://images.unsplash.com/photo-1542332213-9b5a5a3fad35?auto=format&fit=crop&w=1200&q=80'); background-size: cover; background-position: center; border-bottom: 4px solid #ff00ff; }
+      .header-section { text-align: center; padding: 40px 20px; }
+      .report-label { font-family: 'Orbitron', sans-serif; color: #00f2ff; letter-spacing: 5px; font-size: 16px; margin-bottom: 10px; }
+      .main-date { font-family: 'Orbitron', sans-serif; font-size: clamp(32px, 8vw, 56px); color: #ffffff; margin: 0; text-shadow: 0 0 20px #ff00ff; }
+      .notice-box { background: #ea580c; border: 3px solid #ffedd5; padding: 25px; border-radius: 8px; margin: 0 40px 40px 40px; text-align: center; }
+      .notice-box strong { color: #ffffff; display: block; font-size: 20px; text-transform: uppercase; margin-bottom: 5px; }
+      .notice-box p { color: #ffffff; margin: 0; font-size: 14px; font-weight: 700; }
+      h2 { font-family: 'Orbitron', sans-serif; font-size: 24px; color: #00f2ff; border-left: 8px solid #ff00ff; padding-left: 20px; margin: 60px 40px 20px 40px; text-transform: uppercase; }
+      .table-wrapper { margin: 0 40px; overflow-x: auto; border: 1px solid #333; }
+      table { width: 100%; border-collapse: collapse; min-width: 800px; }
+      th { background: #111; color: #00f2ff; text-align: left; padding: 18px; font-family: 'Orbitron', sans-serif; font-size: 12px; border-bottom: 2px solid #ff00ff; text-transform: uppercase; }
+      td { padding: 18px; border-bottom: 1px solid #222; font-size: 15px; vertical-align: top; color: #ddd; }
+      .venue { color: #00f2ff; font-weight: 800; font-size: 17px; }
+      .deal { color: #39ff14; font-weight: 700; }
+      .time { color: #facc15; font-weight: 800; }
+      @media (max-width: 768px) {
+        .banner { height: 200px; }
+        .main-date { font-size: 32px; }
+        .notice-box, h2, .table-wrapper { margin-left: 15px; margin-right: 15px; }
+      }
+    </style>
+  
+    <div class="container">
+      <div class="banner"></div>
+      <div class="header-section">
+        <div class="report-label">NIGHTLIFE INTEL FOR</div>
+        <h1 class="main-date">MAY 6, 2569 BE</h1>
+      </div>
+      <div class="notice-box">
+        <strong>Manual Verification Required</strong>
+        <p>AI-scouted intelligence. Check the venue's social media or call before attending.</p>
+      </div>
+  <h2>Central Scout</h2><p style="padding: 20px;">Scout timed out or failed.</p><h2>Pratamnak Scout</h2><div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th>Venue</th>
+      <th>Event</th>
+      <th>The Deal</th>
+      <th>Time</th>
+      <th>Cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="venue">Kinnaree Place</span></td>
+      <td>Wednesday Burgers & Sausages</td>
+      <td><span class="deal">Assorted meats, extras & dessert</span></td>
+      <td><span class="time">14:00 - 21:00</span></td>
+      <td>~250 THB</td>
+    </tr>
+    <tr>
+      <td><span class="venue">808 Nightclub</span></td>
+      <td>Wednesday Lady's Night</td>
+      <td><span class="deal">Free drinks for ladies; buy 1 get 1 bottles</span></td>
+      <td><span class="time">22:00 - Late</span></td>
+      <td>Free Entry</td>
+    </tr>
+    <tr>
+      <td><span class="venue">CatFlaps Pratumnak</span></td>
+      <td>Gents Club Social</td>
+      <td><span class="deal">Free Pool on Rhino table; 20+ Hostesses</span></td>
+      <td><span class="time">13:00 - 23:00</span></td>
+      <td>Drinks from 85 THB</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Venom Gents Club</span></td>
+      <td>Hostess Lounge Night</td>
+      <td><span class="deal">Lounge vibes & smart-casual interaction</span></td>
+      <td><span class="time">14:00 - 00:00</span></td>
+      <td>Premium Pricing</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Republic Club</span></td>
+      <td>Seduction Republic</td>
+      <td><span class="deal">House & Afrobeat; VIP bottle service promos</span></td>
+      <td><span class="time">22:00 - 04:00</span></td>
+      <td>Free Entry</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Club Panda</span></td>
+      <td>Neon Jungle Wednesday</td>
+      <td><span class="deal">Live Dancers & 3D Visual Show</span></td>
+      <td><span class="time">21:00 - Late</span></td>
+      <td>Beer from 160 THB</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Buzzin Lounge</span></td>
+      <td>Soi Chaiyapoon Meetup</td>
+      <td><span class="deal">Community drinks & Nightlife networking</span></td>
+      <td><span class="time">13:00 - 01:00</span></td>
+      <td>Standard Bar Prices</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Witherspoons</span></td>
+      <td>Build-Your-Own Breakfast</td>
+      <td><span class="deal">7-item English Breakfast & free tea/coffee</span></td>
+      <td><span class="time">07:00 - 14:00</span></td>
+      <td>169 THB</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Retox Game On</span></td>
+      <td>Wednesday Sports Special</td>
+      <td><span class="deal">Burger & Pint combo deals; 50+ screens</span></td>
+      <td><span class="time">12:00 - 00:00</span></td>
+      <td>~299 THB</td>
+    </tr>
+    <tr>
+      <td><span class="venue">The Lion Pub</span></td>
+      <td>Wednesday Carvery Light</td>
+      <td><span class="deal">Sliced roast beef/pork platter</span></td>
+      <td><span class="time">13:00 - 18:00</span></td>
+      <td>210 THB</td>
+    </tr>
+    <tr>
+      <td><span class="venue">3 Angels Bar</span></td>
+      <td>NWG Wednesday Party</td>
+      <td><span class="deal">Draft beer specials & party girls</span></td>
+      <td><span class="time">13:00 - 01:00</span></td>
+      <td>70-90 THB Beer</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Omega Bar</span></td>
+      <td>Soi 6 Shot Night</td>
+      <td><span class="deal">Tequila & Sambuca shot specials</span></td>
+      <td><span class="time">14:00 - 01:00</span></td>
+      <td>99 THB Shots</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Cobra Gents Club</span></td>
+      <td>Pratamnak Hill Chill</td>
+      <td><span class="deal">Quiet lounge setting; Hostess company</span></td>
+      <td><span class="time">13:00 - 23:00</span></td>
+      <td>Drinks from 90 THB</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Windmill Agogo</span></td>
+      <td>Naughty Wednesday</td>
+      <td><span class="deal">Signature stage shows & high energy</span></td>
+      <td><span class="time">20:00 - 03:00</span></td>
+      <td>Beer from 145 THB</td>
+    </tr>
+    <tr>
+      <td><span class="venue">The Hill Bar</span></td>
+      <td>Sunset Pool Session</td>
+      <td><span class="deal">Breezy open bar; Fair drink pricing</span></td>
+      <td><span class="time">15:00 - 02:00</span></td>
+      <td>Beer from 80 THB</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Makana Bar</span></td>
+      <td>Wednesday Pool Tournament</td>
+      <td><span class="deal">Winner takes pot; Cocktail happy hour</span></td>
+      <td><span class="time">16:00 - Late</span></td>
+      <td>Entry: 100 THB</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Foxy Bar</span></td>
+      <td>NWG Mid-Week Mashup</td>
+      <td><span class="deal">Drink-to-spin wheel promos</span></td>
+      <td><span class="time">13:00 - 01:00</span></td>
+      <td>85 THB Beer</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Seduction Bar</span></td>
+      <td>Soi 6 Girl Bar Party</td>
+      <td><span class="deal">Bells & Whistles celebration specials</span></td>
+      <td><span class="time">14:00 - 02:00</span></td>
+      <td>Variable</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Pussycat GC</span></td>
+      <td>Secret Garden Soiree</td>
+      <td><span class="deal">Outdoor lounge and VIP room access</span></td>
+      <td><span class="time">15:00 - 00:00</span></td>
+      <td>Premium</td>
+    </tr>
+    <tr>
+      <td><span class="venue">The Sportsman</span></td>
+      <td>Wednesday Pie Night</td>
+      <td><span class="deal">Homemade steak & kidney pie + chips</span></td>
+      <td><span class="time">17:00 - 21:00</span></td>
+      <td>~245 THB</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Bachelor Club</span></td>
+      <td>Gents Wednesday Lounge</td>
+      <td><span class="deal">Comfortable seating & air-con relaxation</span></td>
+      <td><span class="time">14:00 - 23:00</span></td>
+      <td>Mid-range</td>
+    </tr>
+    <tr>
+      <td><span class="venue">N Hood Bar</span></td>
+      <td>Neighborhood Sports Night</td>
+      <td><span class="deal">Live EPL Replays & bucket beer deals</span></td>
+      <td><span class="time">12:00 - 00:00</span></td>
+      <td>Bucket: 450 THB</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Utopia Bar</span></td>
+      <td>Fantasy Wednesday</td>
+      <td><span class="deal">Cosplay uniforms & specialty cocktails</span></td>
+      <td><span class="time">13:00 - 01:00</span></td>
+      <td>Drinks from 95 THB</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Horny Bar</span></td>
+      <td>NWG Afternoon Delight</td>
+      <td><span class="deal">Early bird beer discounts</span></td>
+      <td><span class="time">13:00 - 18:00</span></td>
+      <td>65 THB Draft</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Soi Buakhao Bar</span></td>
+      <td>Free Pig Roast (Weekly)</td>
+      <td><span class="deal">Free BBQ pork & sides with drink purchase</span></td>
+      <td><span class="time">16:00 - 19:00</span></td>
+      <td>Free (With Drink)</td>
+    </tr>
+  </tbody>
+</table></div><h2>Jomtien Scout</h2><div class="table-wrapper"><table>
+  <tr>
+    <th>Venue</th>
+    <th>Event</th>
+    <th>The Deal</th>
+    <th>Time</th>
+    <th>Cost</th>
+  </tr>
+  <tr>
+    <td><span class="venue">808 Nightclub</span></td>
+    <td>Ladies Night</td>
+    <td><span class="deal">Free drinks for all ladies</span></td>
+    <td><span class="time">22:00 - Late</span></td>
+    <td>Free Entry</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Republic Nightclub</span></td>
+    <td>Seduction Republic</td>
+    <td><span class="deal">Weekly themed show & live DJ</span></td>
+    <td><span class="time">22:00 - 04:00</span></td>
+    <td>Free Entry</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Club Panda</span></td>
+    <td>Neon Stage Show</td>
+    <td><span class="deal">3D Wall visuals & dancers</span></td>
+    <td><span class="time">22:00 - Late</span></td>
+    <td>Free Entry</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Free Willie (Soi Buakhao)</span></td>
+    <td>Wednesday Goulash</td>
+    <td><span class="deal">Free hot goulash buffet</span></td>
+    <td><span class="time">14:00 - 21:00</span></td>
+    <td>Free (with drink)</td>
+  </tr>
+  <tr>
+    <td><span class="venue">The Club Lounge</span></td>
+    <td>Boy Town Cabaret</td>
+    <td><span class="deal">Dancing boys & nightly shows</span></td>
+    <td><span class="time">19:00 - 02:00</span></td>
+    <td>No Cover</td>
+  </tr>
+  <tr>
+    <td><span class="venue">The Best Bar</span></td>
+    <td>Jomtien Complex Show</td>
+    <td><span class="deal">Happy Hour & male dance sets</span></td>
+    <td><span class="time">17:00 - 02:00</span></td>
+    <td>No Cover</td>
+  </tr>
+  <tr>
+    <td><span class="venue">See You Bar (Rompho)</span></td>
+    <td>Live Rock & Sports</td>
+    <td><span class="deal">5-piece band playing classics</span></td>
+    <td><span class="time">20:30 - Midnight</span></td>
+    <td>No Cover</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Aussie Bar (Rompho)</span></td>
+    <td>NRL/AFL Sports Night</td>
+    <td><span class="deal">Australian sports & draft deals</span></td>
+    <td><span class="time">14:00 - Late</span></td>
+    <td>Standard Price</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Rum Dum Bar (Rompho)</span></td>
+    <td>Expat Pool Special</td>
+    <td><span class="deal">Buy 5 beers, get 1 free</span></td>
+    <td><span class="time">08:00 - 02:00</span></td>
+    <td>60 THB/Beer</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Bootleggers Bar</span></td>
+    <td>Darts & Pool Challenge</td>
+    <td><span class="deal">Free pool table use all night</span></td>
+    <td><span class="time">14:00 - Late</span></td>
+    <td>No Cover</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Happy Bar (Soi 7)</span></td>
+    <td>Hostess Party</td>
+    <td><span class="deal">Engaging games & girl hostesses</span></td>
+    <td><span class="time">14:00 - 02:00</span></td>
+    <td>No Cover</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Cheers Bar (Soi 7)</span></td>
+    <td>Ice Cold Beer Night</td>
+    <td><span class="deal">Deep discount on local bottles</span></td>
+    <td><span class="time">15:00 - Late</span></td>
+    <td>70 THB/Beer</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Country Road 3</span></td>
+    <td>Thappraya Pool Night</td>
+    <td><span class="deal">Laid-back vibe & girl pool mates</span></td>
+    <td><span class="time">14:00 - Midnight</span></td>
+    <td>No Cover</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Foxy Bar (NWG)</span></td>
+    <td>Soi 6 Party Night</td>
+    <td><span class="deal">Night Wish Group group deals</span></td>
+    <td><span class="time">14:00 - 02:00</span></td>
+    <td>No Cover</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Horny Bar (NWG)</span></td>
+    <td>Hostess Happy Hour</td>
+    <td><span class="deal">Discounted lady drinks</span></td>
+    <td><span class="time">14:00 - 18:00</span></td>
+    <td>No Cover</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Toy Box (NWG)</span></td>
+    <td>Girl Bar Mania</td>
+    <td><span class="deal">No bill-padding guarantee</span></td>
+    <td><span class="time">14:00 - 02:00</span></td>
+    <td>No Cover</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Repent (NWG)</span></td>
+    <td>Midweek Sin City</td>
+    <td><span class="deal">Special NWG member pricing</span></td>
+    <td><span class="time">14:00 - 02:00</span></td>
+    <td>No Cover</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Seduction Bar (Soi 6)</span></td>
+    <td>Wednesday Warmup</td>
+    <td><span class="deal">Shot specials for groups</span></td>
+    <td><span class="time">15:00 - Late</span></td>
+    <td>No Cover</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Passion Bar (NWG)</span></td>
+    <td>Gents Lounge Night</td>
+    <td><span class="deal">Short-time room rental promos</span></td>
+    <td><span class="time">14:00 - 02:00</span></td>
+    <td>No Cover</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Sexy In The City</span></td>
+    <td>Hostess Showdown</td>
+    <td><span class="deal">Multi-girl drink specials</span></td>
+    <td><span class="time">14:00 - 02:00</span></td>
+    <td>No Cover</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Butterfly Bar (NWG)</span></td>
+    <td>Neon Girl Night</td>
+    <td><span class="deal">Draft beer & spirit mixers</span></td>
+    <td><span class="time">15:00 - 02:00</span></td>
+    <td>No Cover</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Playpen Bar (NWG)</span></td>
+    <td>Playpen Party</td>
+    <td><span class="deal">Complimentary snacks with drinks</span></td>
+    <td><span class="time">14:00 - 02:00</span></td>
+    <td>No Cover</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Offshore Bar (NWG)</span></td>
+    <td>The Anchor Special</td>
+    <td><span class="deal">Happy Hour prices all afternoon</span></td>
+    <td><span class="time">14:00 - 19:00</span></td>
+    <td>80 THB/Beer</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Flirt Bar (NWG)</span></td>
+    <td>Hostess Meet & Greet</td>
+    <td><span class="deal">New girl arrival party</span></td>
+    <td><span class="time">14:00 - Late</span></td>
+    <td>No Cover</td>
+  </tr>
+  <tr>
+    <td><span class="venue">Utopia Bar (NWG)</span></td>
+    <td>Final Call Wednesday</td>
+    <td><span class="deal">Nightly staff dance sets</span></td>
+    <td><span class="time">20:00 - 02:00</span></td>
+    <td>No Cover</td>
+  </tr>
+</table></div><h2>Dark Side Scout</h2><div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th>Venue</th>
+      <th>Event</th>
+      <th>The Deal</th>
+      <th>Time</th>
+      <th>Cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="venue">Club 4</span></td>
+      <td>Khao Talo Nightly Entertainment</td>
+      <td><span class="deal">Short-time rooms 1,500b</span></td>
+      <td><span class="time">19:00 - 03:00</span></td>
+      <td>300b Bar Fine</td>
+    </tr>
+    <tr>
+      <td><span class="venue">The Lake Gentleman Club</span></td>
+      <td>Maprachan Sundowner</td>
+      <td><span class="deal">Buy 2 Get 1 Free Beers &amp; Spirits</span></td>
+      <td><span class="time">14:00 - 18:00</span></td>
+      <td>No Cover</td>
+    </tr>
+    <tr>
+      <td><span class="venue">The Loft Pub</span></td>
+      <td>Midweek Live Music</td>
+      <td><span class="deal">All-Day Western &amp; Thai Food Specials</span></td>
+      <td><span class="time">12:00 - 23:00</span></td>
+      <td>Free Entry</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Darkside Gents Bar &amp; Grill</span></td>
+      <td>Phon Prapha Nimit Hostess Party</td>
+      <td><span class="deal">Local Bottled Beer 85b</span></td>
+      <td><span class="time">15:00 - 02:00</span></td>
+      <td>Free Entry</td>
+    </tr>
+    <tr>
+      <td><span class="venue">The Badger</span></td>
+      <td>Darkside Daytime Gents Lounge</td>
+      <td><span class="deal">Happy Hour pricing on all spirits</span></td>
+      <td><span class="time">13:00 - 01:00</span></td>
+      <td>No Cover</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Jade Restaurant &amp; Lounge</span></td>
+      <td>Siam Country Afternoon Session</td>
+      <td><span class="deal">Premium Spirits Discount</span></td>
+      <td><span class="time">13:00 - 21:00</span></td>
+      <td>Free Entry</td>
+    </tr>
+    <tr>
+      <td><span class="venue">High Rollers</span></td>
+      <td>Gents Sports &amp; Pool Night</td>
+      <td><span class="deal">Free Pool &amp; Killer Pool Tournament</span></td>
+      <td><span class="time">14:00 - 02:00</span></td>
+      <td>No Cover</td>
+    </tr>
+    <tr>
+      <td><span class="venue">The Den Gentlemen's Club</span></td>
+      <td>Luxury Hostess Lounge</td>
+      <td><span class="deal">VIP Lounge Access with Bottle Purchase</span></td>
+      <td><span class="time">17:00 - 03:00</span></td>
+      <td>Variable</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Venom Gentlemen's Club</span></td>
+      <td>Wednesday Madness</td>
+      <td><span class="deal">Tequila Shots 99b</span></td>
+      <td><span class="time">16:00 - 02:00</span></td>
+      <td>Free Entry</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Cobra Lounge</span></td>
+      <td>East Pattaya Gents Meetup</td>
+      <td><span class="deal">Buy 5 Get 1 Beer Buckets</span></td>
+      <td><span class="time">15:00 - 01:00</span></td>
+      <td>No Cover</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Hunny Lounge</span></td>
+      <td>Midweek Hostess Experience</td>
+      <td><span class="deal">Classic Cocktail Specials</span></td>
+      <td><span class="time">14:00 - 00:00</span></td>
+      <td>Free Entry</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Telephone Bar &amp; Club</span></td>
+      <td>Sukhumvit Gents Social</td>
+      <td><span class="deal">Happy Hour Draft Beer 90b</span></td>
+      <td><span class="time">16:00 - 02:00</span></td>
+      <td>No Cover</td>
+    </tr>
+    <tr>
+      <td><span class="venue">808 Club</span></td>
+      <td>Whipped Cream Wednesdays</td>
+      <td><span class="deal">Ladies Night: Free Drinks for Women</span></td>
+      <td><span class="time">22:00 - 04:00</span></td>
+      <td>Free Entry</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Republic Club</span></td>
+      <td>Walking Street Midweek Party</td>
+      <td><span class="deal">2-for-1 Bottle Service before midnight</span></td>
+      <td><span class="time">21:00 - 04:00</span></td>
+      <td>Free Entry</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Club Panda</span></td>
+      <td>EDM Bass Night</td>
+      <td><span class="deal">VIP Booth Bottle Deals 3500b+</span></td>
+      <td><span class="time">22:00 - 04:00</span></td>
+      <td>Free Entry</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Playgirlz</span></td>
+      <td>Pole &amp; Fire Extravaganza</td>
+      <td><span class="deal">60+ Models with live stage shows</span></td>
+      <td><span class="time">20:00 - 03:00</span></td>
+      <td>No Cover</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Heaven Above</span></td>
+      <td>Soi Boomerang Gents Night</td>
+      <td><span class="deal">Drink Vouchers for repeat guests</span></td>
+      <td><span class="time">17:00 - 04:00</span></td>
+      <td>Free Entry</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Club Fate</span></td>
+      <td>Soi Boomerang Modern Vibe</td>
+      <td><span class="deal">Local Beer 120b all night</span></td>
+      <td><span class="time">18:00 - 04:00</span></td>
+      <td>No Cover</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Sugar Baby</span></td>
+      <td>LK Metro Go-Go Showcase</td>
+      <td><span class="deal">Craft Cocktails Happy Hour</span></td>
+      <td><span class="time">19:00 - 03:00</span></td>
+      <td>Free Entry</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Sapphire Club</span></td>
+      <td>Black Label Wednesday</td>
+      <td><span class="deal">Black Label Bottles 1,900b</span></td>
+      <td><span class="time">20:30 - 04:00</span></td>
+      <td>Free Entry</td>
+    </tr>
+    <tr>
+      <td><span class="venue">XS A Go Go</span></td>
+      <td>Vegas-Style Super Cabaret</td>
+      <td><span class="deal">High-energy shows on hydraulic stage</span></td>
+      <td><span class="time">20:00 - 03:00</span></td>
+      <td>Free Entry</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Pin-Up A Go Go</span></td>
+      <td>Top Model Energy Rotation</td>
+      <td><span class="deal">Draft Beer 105b All Night</span></td>
+      <td><span class="time">19:00 - 04:00</span></td>
+      <td>No Cover</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Lady Love</span></td>
+      <td>Prime Happy Hour</td>
+      <td><span class="deal">Lady Drinks 195b Special</span></td>
+      <td><span class="time">20:00 - 21:00</span></td>
+      <td>Free Entry</td>
+    </tr>
+    <tr>
+      <td><span class="venue">3 Angels Bar (NWG)</span></td>
+      <td>Soi 6 Party Night</td>
+      <td><span class="deal">Night Wish Group Girl Rotation</span></td>
+      <td><span class="time">13:00 - 01:00</span></td>
+      <td>No Cover</td>
+    </tr>
+    <tr>
+      <td><span class="venue">The Pride (Soi Buakhao)</span></td>
+      <td>Midweek Pig Roast</td>
+      <td><span class="deal">Free Pig Roast &amp; Buffet for patrons</span></td>
+      <td><span class="time">17:00 - 20:00</span></td>
+      <td>Free Food</td>
+    </tr>
+  </tbody>
+</table></div><h2>The Stagehand</h2><p style="padding: 20px;">Scout timed out or failed.</p><h2>The Liaison</h2><div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th>Venue</th>
+      <th>Event</th>
+      <th>The Deal</th>
+      <th>Time</th>
+      <th>Cost</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><span class="venue">808 Nightclub</span></td>
+      <td>Ladys Night</td>
+      <td><span class="deal">Free welcome drink for ladies</span></td>
+      <td><span class="time">20:00 - 04:00</span></td>
+      <td>Free Entry</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Republic Pattaya</span></td>
+      <td>Seduction Republic</td>
+      <td><span class="deal">RnB & Hip-Hop curated set</span></td>
+      <td><span class="time">22:00 - 04:00</span></td>
+      <td>Free Entry</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Club Panda</span></td>
+      <td>Asian EDM Takeover</td>
+      <td><span class="deal">Mainstream EDM & Live MCs</span></td>
+      <td><span class="time">21:00 - Late</span></td>
+      <td>Bottle Service</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Billabong Bar</span></td>
+      <td>Soi Buakhao Pig Roast</td>
+      <td><span class="deal">Free spit-roast pork buffet</span></td>
+      <td><span class="time">18:00 - Gone</span></td>
+      <td>Free with drink</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Nature Bar</span></td>
+      <td>NWG Charity Drive</td>
+      <td><span class="deal">Free hot meals distribution</span></td>
+      <td><span class="time">13:00 - 15:00</span></td>
+      <td>Free</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Sexy in the City</span></td>
+      <td>Newbie Wednesday</td>
+      <td><span class="deal">First-timer orientation & social</span></td>
+      <td><span class="time">15:00 - 01:00</span></td>
+      <td>Happy Hour</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Sapphire Club</span></td>
+      <td>Black Label Wednesday</td>
+      <td><span class="deal">Discounted Black Label bottles</span></td>
+      <td><span class="time">20:30 - Late</span></td>
+      <td>160 THB Beer</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Lady Love Club</span></td>
+      <td>LK Metro Model Night</td>
+      <td><span class="deal">60+ model rotation on stage</span></td>
+      <td><span class="time">20:00 - 02:00</span></td>
+      <td>90 THB Happy Hour</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Kink Agogo</span></td>
+      <td>Upstairs Raunchy Show</td>
+      <td><span class="deal">Extreme choreographed stage show</span></td>
+      <td><span class="time">20:00 - Late</span></td>
+      <td>180 THB drinks</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Windmill Club</span></td>
+      <td>Wild Show Night</td>
+      <td><span class="deal">High-energy interactive performances</span></td>
+      <td><span class="time">19:00 - 04:00</span></td>
+      <td>Free Entry</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Shark A Go Go</span></td>
+      <td>XXXposure Shows</td>
+      <td><span class="deal">Themed shows at 23:00, 00:00</span></td>
+      <td><span class="time">20:00 - Late</span></td>
+      <td>105 THB Draft</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Palace A Go Go</span></td>
+      <td>Main Stage Rotation</td>
+      <td><span class="deal">Continuous dancer performances</span></td>
+      <td><span class="time">20:00 - 03:00</span></td>
+      <td>95 THB Tiger Draft</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Pin-Up A Go Go</span></td>
+      <td>Glamour Night</td>
+      <td><span class="deal">Luxury model stage rotation</span></td>
+      <td><span class="time">20:00 - Late</span></td>
+      <td>160 THB Standard</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Heaven Above</span></td>
+      <td>Cleo's Hideout VIP</td>
+      <td><span class="deal">Exclusive speakeasy lounge access</span></td>
+      <td><span class="time">20:00 - 04:00</span></td>
+      <td>Premium Pricing</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Club Fate</span></td>
+      <td>Midweek Party</td>
+      <td><span class="deal">Soi Boomerang Gents Club vibe</span></td>
+      <td><span class="time">18:00 - 04:00</span></td>
+      <td>99 THB Peroni</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Scooter's Bar</span></td>
+      <td>Retro Soul & Ska</td>
+      <td><span class="deal">Vinyl set: Soul, Ska, & Disco</span></td>
+      <td><span class="time">15:00 - 01:00</span></td>
+      <td>Happy Hour</td>
+    </tr>
+    <tr>
+      <td><span class="venue">The Naughty Club</span></td>
+      <td>Midweek Bash</td>
+      <td><span class="deal">Modern stylish party atmosphere</span></td>
+      <td><span class="time">18:00 - Late</span></td>
+      <td>BOGOF Shots</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Horny Bar</span></td>
+      <td>Waitress Game Night</td>
+      <td><span class="deal">Party games with the NWG crew</span></td>
+      <td><span class="time">13:00 - 01:00</span></td>
+      <td>80 THB Beers</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Foxy Bar</span></td>
+      <td>Sunset Happy Hour</td>
+      <td><span class="deal">Early bird draft specials</span></td>
+      <td><span class="time">13:00 - 18:00</span></td>
+      <td>75 THB Draft</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Quicky Bar</span></td>
+      <td>Night Wish Special</td>
+      <td><span class="deal">Bucket deals on local spirits</span></td>
+      <td><span class="time">15:00 - Late</span></td>
+      <td>400 THB Buckets</td>
+    </tr>
+    <tr>
+      <td><span class="venue">i-Rovers</span></td>
+      <td>Midweek Sports Live</td>
+      <td><span class="deal">Live EPL & Rugby match streaming</span></td>
+      <td><span class="time">All Day</span></td>
+      <td>Menu Combos</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Babylon</span></td>
+      <td>Gentlemen's Lounge</td>
+      <td><span class="deal">Relaxed air-con VIP lounge</span></td>
+      <td><span class="time">18:00 - 04:00</span></td>
+      <td>Free Entry</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Venom Club</span></td>
+      <td>Pool & Billiards</td>
+      <td><span class="deal">Midweek billiards tournament</span></td>
+      <td><span class="time">17:00 - Late</span></td>
+      <td>Local Beer 80 THB</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Baccara</span></td>
+      <td>Schoolgirl Theme</td>
+      <td><span class="deal">Uniformed models on two floors</span></td>
+      <td><span class="time">20:00 - 03:00</span></td>
+      <td>180 THB Beer</td>
+    </tr>
+    <tr>
+      <td><span class="venue">Catflaps</span></td>
+      <td>Guinness Social</td>
+      <td><span class="deal">Freshly tapped Irish stout promo</span></td>
+      <td><span class="time">14:00 - Late</span></td>
+      <td>130 THB Guinness</td>
+    </tr>
+  </tbody>
+</table></div></div>
